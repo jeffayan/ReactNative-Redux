@@ -25,9 +25,9 @@ class Landing extends Component {
       }
   
     toggle(){
-
+        console.log("Toggle ");
         this.setState({
-            sideBarIsOpen : !sideBarIsOpen,
+            sideBarIsOpen : !this.state.sideBarIsOpen,
         });
     }   
 
