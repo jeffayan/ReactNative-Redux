@@ -13,17 +13,21 @@ import {
 } from 'react-native';
 
 import {Provider} from 'react-redux';
-import Home from './App/Home';
+import {Landing} from './App/Pages'
+
 import ConfigureStore from './App/ConfigureStore';
 
 const store = ConfigureStore();
 
+import SideMenu from 'react-native-side-menu';
+
 export default class App extends Component {
 
+    
   render() {
     return (
       <Provider store = {store}>
-           <Home/>
+          <Landing/>
        </Provider> 
     );
   }

@@ -1,4 +1,4 @@
-import {FETCH_PEOPLE, FETCH_PEOPLE_SUCCESS, FETCH_PEOPLE_FAILURE} from './constants';
+import {FETCH_PEOPLE, FETCH_PEOPLE_SUCCESS, FETCH_PEOPLE_FAILURE} from './Constants';
 
 export function getPeopleFromServer(){
      console.log('Called  ');
